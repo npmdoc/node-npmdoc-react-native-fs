@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"react-native-fs",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "react-native-fs",
+    "description": "api documentation for [react-native-fs (v1.5.1)](https://github.com/johanneslumpe/react-native-fs#readme) [![npm package](https://img.shields.io/npm/v/npmdoc-react-native-fs.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-react-native-fs) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-react-native-fs.svg)](https://travis-ci.org/npmdoc/node-npmdoc-react-native-fs)",
     "devDependencies": {
-        "react-native-fs": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "react-native-fs": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-react-native-fs",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-react-native-fs",
+    "keywords": [
+        "documentation",
+        "react-native-fs"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_react_native_fs.js",
+    "name": "npmdoc-react-native-fs",
+    "nameAlias": "npmdoc_react_native_fs",
+    "nameOriginal": "npmdoc-react-native-fs",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-react-native-fs"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
