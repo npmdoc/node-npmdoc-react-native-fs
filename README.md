@@ -1,9 +1,14 @@
-# api documentation for  [react-native-fs (v1.5.1)](https://github.com/johanneslumpe/react-native-fs#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-react-native-fs.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-react-native-fs) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-react-native-fs.svg)](https://travis-ci.org/npmdoc/node-npmdoc-react-native-fs)
+# npmdoc-react-native-fs
+
+#### api documentation for  [react-native-fs (v1.5.1)](https://github.com/johanneslumpe/react-native-fs#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-react-native-fs.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-react-native-fs) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-react-native-fs.svg)](https://travis-ci.org/npmdoc/node-npmdoc-react-native-fs)
+
 #### Native filesystem access for react-native
 
-[![NPM](https://nodei.co/npm/react-native-fs.png?downloads=true)](https://www.npmjs.com/package/react-native-fs)
+[![NPM](https://nodei.co/npm/react-native-fs.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/react-native-fs)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-react-native-fs/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-react-native-fs_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-react-native-fs/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-react-native-fs/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-react-native-fs/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-react-native-fs/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-react-native-fs/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-react-native-fs/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "Johannes Lumpe",
-        "email": "johannes@lum.pe",
         "url": "https://github.com/johanneslumpe"
     },
     "bugs": {
@@ -52,17 +56,14 @@
     "main": "FS.common.js",
     "maintainers": [
         {
-            "name": "cjdell",
-            "email": "me@chrisdell.info"
+            "name": "cjdell"
         },
         {
-            "name": "johanneslumpe",
-            "email": "johannes@johanneslumpe.de"
+            "name": "johanneslumpe"
         }
     ],
     "name": "react-native-fs",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+ssh://git@github.com/johanneslumpe/react-native-fs.git"
@@ -73,16 +74,6 @@
     "version": "1.5.1"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module react-native-fs](#apidoc.module.react-native-fs)
-
-
-
-# <a name="apidoc.module.react-native-fs"></a>[module react-native-fs](#apidoc.module.react-native-fs)
 
 
 
