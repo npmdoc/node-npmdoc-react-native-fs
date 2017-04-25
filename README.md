@@ -1,6 +1,6 @@
 # npmdoc-react-native-fs
 
-#### api documentation for  [react-native-fs (v1.5.1)](https://github.com/johanneslumpe/react-native-fs#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-react-native-fs.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-react-native-fs) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-react-native-fs.svg)](https://travis-ci.org/npmdoc/node-npmdoc-react-native-fs)
+#### basic api documentation for  [react-native-fs (v1.5.1)](https://github.com/johanneslumpe/react-native-fs#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-react-native-fs.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-react-native-fs) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-react-native-fs.svg)](https://travis-ci.org/npmdoc/node-npmdoc-react-native-fs)
 
 #### Native filesystem access for react-native
 
@@ -71,7 +71,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "version": "1.5.1"
+    "version": "1.5.1",
+    "bin": {}
 }
 ```
 
